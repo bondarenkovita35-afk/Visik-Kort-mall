@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Vita Lashes • Digitalt visitkort</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;500&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="page-bg">
+        <div class="orb orb-left"></div>
+        <div class="orb orb-right"></div>
+    </div>
+
+    <main class="card-wrapper">
+        <section class="business-card">
+            <span class="sparkles"></span>
+
+            <header class="card-header">
+                <div class="avatar-block">
+                    <div class="avatar-ring">
+                        <img src="images/avatar.jpg" alt="Vita Sivakova">
+                    </div>
+                    <div class="avatar-name">
+                        <span>Vita Sivakova</span>
+                    </div>
+                </div>
+
+                <a class="studio-logo" href="https://bondarenkovita35-afk.github.io/vs-litecode-studio/" target="_blank"
+                    rel="noopener">
+                    <img src="images/logo.png" alt="VS LiteCode Studio">
+                </a>
+            </header>
+
+            <!-- Переключатель языков – одна «капсула» -->
+            <div class="lang-switch" aria-label="Select language">
+                <button class="lang-pill active" data-lang="ru">RU</button>
+                <button class="lang-pill" data-lang="sv">SV</button>
+                <button class="lang-pill" data-lang="en">EN</button>
+            </div>
+
+            <div class="card-content">
+                <h1 class="brand-title">Vita Lashes</h1>
+                <p class="langs-line" id="langs-line"></p>
+
+                <p class="desc-line" id="desc1"></p>
+                <p class="desc-line" id="desc2"></p>
+                <p class="desc-line" id="desc3"></p>
+
+                <div class="contact-block">
+                    <p class="contact-line" id="location-line">
+                        <span class="icon">📍</span>
+                        <span class="text"></span>
+                    </p>
+                    <p class="contact-line">
+                        <span class="icon">📞</span>
+                        <a class="phone-link" href="tel:+6729431427">+6729431427</a>
+                    </p>
+                </div>
+
+                <div class="buttons-row">
+                    <a id="insta-btn" class="btn primary" href="https://www.instagram.com/vita_permanent_stockholm/"
+                        target="_blank" rel="noopener">
+                    </a>
+
+                    <a id="wa-btn" class="btn secondary" href="https://wa.me/6729431427" target="_blank" rel="noopener">
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
